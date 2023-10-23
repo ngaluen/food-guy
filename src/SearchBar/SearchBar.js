@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styles from "./SearchBar.module.css";
+import SearchIcon from "@mui/icons-material/Search";
 
 export default function SearchBar(props) {
   const [term, setTerm] = useState(props.term || "");
@@ -16,11 +17,19 @@ export default function SearchBar(props) {
   const sizeClass = props.small ? "" : "is-medium";
   return (
     <form onSubmit={submit}>
-      <div className="field has-addons">
-        <p className="control">
-          <button className={`button is-static ${sizeClass}`}>Search</button>
+      <div
+        className="field has-addons"
+        style={{ display: "flex", alignItems: "center" }}
+      >
+        <p className={styles.control} style={{ backgroundColor: "#F5F5F5" }}>
+          <div
+            className={`button is-static ${sizeClass}`}
+            style={{ color: "#7A7A7A" }}
+          >
+            Search
+          </div>
         </p>
-        <p className="control">
+        <p className={styles.control}>
           <input
             className={`input ${sizeClass} ${styles["input-control"]}`}
             onChange={(e) => setTerm(e.target.value)}
@@ -30,11 +39,15 @@ export default function SearchBar(props) {
           />
         </p>
 
-        <div className="control">
-          <div className={`button is-static ${sizeClass}`}>Near</div>
-        </div>
-
-        <p className="control">
+        <p className={styles.control} style={{ backgroundColor: "#F5F5F5" }}>
+          <div
+            className={`button is-static ${sizeClass}`}
+            style={{ color: "#7A7A7A" }}
+          >
+            Near
+          </div>
+        </p>
+        <p className={styles.control}>
           <input
             className={`input ${sizeClass} ${styles["input-control"]}`}
             onChange={(e) => setLocation(e.target.value)}
@@ -48,8 +61,10 @@ export default function SearchBar(props) {
           className={`button ${sizeClass} ${styles["search-button"]}`}
           onClick={submit}
         >
-          <span className={`icon is-small ${styles["search-icon"]}`}>
-            <i className={`fas fa-search`}></i>
+          <span>
+            <SearchIcon
+              className={`icon is-small ${styles["search-icon"]}`}
+            ></SearchIcon>
           </span>
         </button>
       </div>

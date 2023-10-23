@@ -1,10 +1,20 @@
 .input-control {
   min-width: 320px;
 }
+
+.control {
+  border: 1px solid #dbdbdb;
+  padding: 7px 11px;
+  background-color: white;
+}
+
 :global(.button).search-button {
   background-color: #f4ae80;
   border: none;
-  padding: 1rem;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  height: 38.5px;
+  width: 40px;
 }
 
 :global(.icon).search-icon {
