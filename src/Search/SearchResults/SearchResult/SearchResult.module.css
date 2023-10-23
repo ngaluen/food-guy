@@ -1,0 +1,38 @@
+.search-result {
+  display: flex;
+  max-width: 1135px;
+  width: 100%;
+  box-sizing: border-box;
+  /* border: solid #d0bba2; */
+  background-color: #fffbf7;
+  border-radius: 30px;
+  overflow: hidden;
+  color: #7a5740;
+}
+
+.business-image {
+  width: 210px;
+  height: 210px;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.business-info {
+  width: 300px;
+  margin: 40px 0;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0;
+  justify-content: space-between;
+}
+
+.contact-info p {
+  font-size: 0.85rem;
+}
+
+.business-tag {
+  margin-right: 4px;
+}

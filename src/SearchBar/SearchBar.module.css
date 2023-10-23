@@ -1,0 +1,12 @@
+.input-control {
+  min-width: 320px;
+}
+:global(.button).search-button {
+  background-color: #f4ae80;
+  border: none;
+  padding: 1rem;
+}
+
+:global(.icon).search-icon {
+  color: white;
+}
