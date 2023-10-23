@@ -1,12 +1,10 @@
-import React, { useEffect, useRef } from "react";
-import Logo1 from "./Logo.svg";
+import React from "react";
 import "animate.css";
 import MuiNavbar from "./MuiNavbar";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
 import styles from "./Logo.module.css";
 import icon from "./icon2.svg";
-import { Button } from "@mui/material";
 
 export default function Logo() {
   return (
