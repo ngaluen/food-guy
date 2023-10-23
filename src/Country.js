@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { CountryCard } from "./CountryCard";
 import China from "./CountryPhoto/China.jpeg";
 import American from "./CountryPhoto/American.jpeg";

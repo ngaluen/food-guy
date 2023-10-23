@@ -37,16 +37,18 @@ export const Contact = () => {
             textAlign: "center",
             fontSize: "40px",
             fontFamily: "Josefin Sans",
+            color: "#8E7C6E",
           }}
         >
           About Us
         </h2>
         <p
           style={{
-            marginRight: "400px",
-            marginLeft: "400px",
+            marginRight: "200px",
+            marginLeft: "200px",
             fontSize: "20px",
             fontFamily: "Fira Mono",
+            color: "#8E7C6E",
           }}
         >
           Welcome to our website! We are passionate about exploring the world of
@@ -56,10 +58,11 @@ export const Contact = () => {
         </p>
         <p
           style={{
-            marginRight: "400px",
-            marginLeft: "400px",
+            marginRight: "200px",
+            marginLeft: "200px",
             fontSize: "20px",
             fontFamily: "Fira Mono",
+            color: "#8E7C6E",
           }}
         >
           Our mission is to provide you with information about a variety of
@@ -69,10 +72,11 @@ export const Contact = () => {
         </p>
         <p
           style={{
-            marginRight: "400px",
-            marginLeft: "400px",
+            marginRight: "200px",
+            marginLeft: "200px",
             fontSize: "20px",
             fontFamily: "Fira Mono",
+            color: "#8E7C6E",
           }}
         >
           In addition to exploring global flavors, we also shine a spotlight on
@@ -84,10 +88,11 @@ export const Contact = () => {
         </p>
         <p
           style={{
-            marginRight: "400px",
-            marginLeft: "400px",
+            marginRight: "200px",
+            marginLeft: "200px",
             fontSize: "20px",
             fontFamily: "Fira Mono",
+            color: "#8E7C6E",
           }}
         >
           Join us on this culinary journey as we celebrate the art of food,

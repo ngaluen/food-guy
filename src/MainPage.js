@@ -3,7 +3,6 @@ import Header from "./Header";
 import Footer from "./Footer";
 import MuiNavbar from "./MuiNavbar";
 import Carousel from "./Carousel";
-import Contact from "./Contact";
 import Context1 from "./part3/Context1";
 import Context2 from "./part3/Context2";
 import Context from "./part3/Context";
