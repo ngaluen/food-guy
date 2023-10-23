@@ -86,7 +86,7 @@ export default function Carousel() {
                 }}
               ></div>
               <img
-                src={process.env.PUBLIC_URL + img.src}
+                href={process.env.PUBLIC_URL + img.src}
                 alt={img.name}
                 style={{
                   width: "600px",
