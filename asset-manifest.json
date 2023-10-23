@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/food-guy/static/css/main.53fff0d5.css",
-    "main.js": "/food-guy/static/js/main.ff1efc71.js",
+    "main.css": "/food-guy/static/css/main.a70b7129.css",
+    "main.js": "/food-guy/static/js/main.46f23327.js",
     "static/js/679.28782c52.chunk.js": "/food-guy/static/js/679.28782c52.chunk.js",
     "static/media/ChineseVid.mp4": "/food-guy/static/media/ChineseVid.c5a078cdebfb566aeae2.mp4",
     "static/media/ItalianVid.mp4": "/food-guy/static/media/ItalianVid.4eddd0ea07e96eb79d74.mp4",
@@ -72,12 +72,12 @@
     "static/media/icon2.svg": "/food-guy/static/media/icon2.dccb164a819c83372f1866ed3865f421.svg",
     "index.html": "/food-guy/index.html",
     "static/media/pointer.svg": "/food-guy/static/media/pointer.31038aa34b09ba324250.svg",
-    "main.53fff0d5.css.map": "/food-guy/static/css/main.53fff0d5.css.map",
-    "main.ff1efc71.js.map": "/food-guy/static/js/main.ff1efc71.js.map",
+    "main.a70b7129.css.map": "/food-guy/static/css/main.a70b7129.css.map",
+    "main.46f23327.js.map": "/food-guy/static/js/main.46f23327.js.map",
     "679.28782c52.chunk.js.map": "/food-guy/static/js/679.28782c52.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.53fff0d5.css",
-    "static/js/main.ff1efc71.js"
+    "static/css/main.a70b7129.css",
+    "static/js/main.46f23327.js"
   ]
 }
